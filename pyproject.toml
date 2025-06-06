@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "code-like-a-cat"
+version = "0.1.0"
+description = "A project for coding like a cat"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
